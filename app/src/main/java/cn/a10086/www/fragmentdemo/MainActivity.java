@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 beginTransaction.addToBackStack(null);
                 beginTransaction.commit();
                 break;
+
+
             case R.id.id_three:
                 Toast.makeText(this, "three", Toast.LENGTH_SHORT).show();
                 break;
